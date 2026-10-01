@@ -1,0 +1,200 @@
+Variable :
+
+=> JavaScript is a dynamically typed language because variable types are determined at runtime,
+    and a variable can hold values of different data types.
+
+--> A variable in JavaScript is a name placee use to store a value .
+
+console.log('Hello World');
+let name  = "jyoti" ;
+let age  = 21 ;
+console.log(name);
+console.log(age);
+
+--> Three way to declar variable .
+
+1.let = [
+    --> It use to variable value may changed .
+    --> It has reassign but donot redeclare .
+    --> It has block of scoped .
+]
+2.var = [
+    --> It has old method to declaration 
+    --> It has reassign and redeclared .
+    --> It has function scoped .
+]
+3.const = [
+    --> It has use to don't want to change value .(most use)
+    --> It has don't use to reassign or redeclare .
+    --> It has block of scoped .
+]
+
+What is Scope in variable ?
+
+--> Scope mean where vareable can be access or use in your code .
+--> It has three type :
+--> Global Scope : When variable can declar outside of function or scope .
+--> function Scope : Variable declar inside the function It can normaly use only inside the function .
+--> Block Scope : A block is code inside {} .
+
+
+
+What is a Data Type in a Variable in JavaScript?
+
+--> A data type tells JavaScript what kind of value is store in a variable .
+
+--> It has two type :
+
+--> PRIMITIVE :
+--> String : string are text type data type , they can written in " " .
+--> Number : It has numeric value .
+--> Bigint : It has use to very last integer .
+--> Boolean : It give us yes or no / true or false .
+--> Undefind : When value not assigened .
+--> Null : It give intentionally eampty value .
+--> Symbol : It has unique value .
+
+--> NONPREMETIVE :
+--> Object : It has store data and key value pair .
+--> Array : It has store multipul value in order .
+--> Function : It has Store reuseable code that can be called .
+
+
+CONVERSION :
+
+let age = "21";
+console.log(typeof age );
+age = Number(age);
+console.log(typeof age);
+console.log("100");
+console.log(Number("hello"));
+console.log(String(100));
+console.log(Boolean(1));
+console.log(Boolean(0));
+console.log(Boolean(""));
+console.log(Boolean("hello"));
+// NaN : Not a Number .
+
+
+OPERATORS :
+
+1.Arithmatic Operater :
+
+let a = 10;
+let b = 3;
+console.log(a + b); // 13
+console.log(a - b); // 7
+console.log(a * b); // 30
+console.log(a / b); // 3.333...
+console.log(a % b); // 1
+console.log(a ** b); // 1000
+
+2.Assignment Operater : Variable mein value assign/update karne ke liye .
+
+let x = 10;
+x += 5;  // x = 15
+x -= 3;  // x = 12
+x *= 2;  // x = 24
+x /= 4;  // x = 6
+
+3. Comparision OPerater :
+
+let a = 10;
+let b = 20;
+console.log(a > b);   // false
+console.log(a < b);   // true
+console.log(a == b);  // false
+console.log(a != b);  // true
+
+== : It can Compare value and Type coneversion .
+=== : It can Compare value and Data Type .
+
+4.Logical Operater : condition compare .
+
+let age = 25;
+console.log(age > 18 && age < 60); // true
+
+
+DATE AND TIME :
+
+let date = new Date();
+console.log(date);
+
+// get date :
+
+console.log(date.getDate());
+console.log(date.getMonth());
+console.log(date.getFullYear());
+
+// get Time : 
+
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+
+// create Special date :
+
+let birthDay = new Date("2026-08-08");
+console.log(birthDay);
+
+console.log(date.toDateString());
+console.log(date.toTimeString());
+console.log(date.toISOString());
+
+ISO means International Organization for Standardization.
+
+
+NUMBER : it has data type in JavaScript, It has Built in obj or function .
+
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
+console.log(Number.MAX_SAFE_INTEGER);
+
+MATH : 
+
+--> Math JavaScript ka built-in object hai,
+   jo mathematical calculations ke liye useful methods provide karta hai.
+
+-->
+round → nearest
+floor → down
+ceil → up
+trunc → remove decimal
+abs → positive
+max → biggest
+min → smallest
+random → random number
+sqrt → square root
+pow → power
+
+console.log(Math.round(4.4));
+console.log(Math.floor(4.9));
+console.log(Math.ceil(4.1));
+console.log(Math.trunc(-4.9));
+console.log(Math.abs(-4.9));
+console.log(Math.max(10,20,30,40,50,60));
+console.log(Math.min(10,20,30,40,50,60));
+console.log(Math.pow(4, 9));
+console.log(Math.sqrt(49));
+console.log(Math.random());
+console.log(Math.sign(0));
+
+
+String : 
+
+--> A String is a data type used to store text or charecter in JavaScript .
+--> Method of string is :
+length
+toUpperCase()
+toLowerCase()
+trim()
+includes()
+startsWith()
+endsWith()
+charAt()
+slice() : gets part of string .
+substring()
+split() : Convert string to array .
+replace()
+concat() : join String .
+
