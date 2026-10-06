@@ -80,3 +80,4 @@ const {courseInstructer : instructur} = course
 // console.log(courseInstructer);
 
 console.log(instructur);
+

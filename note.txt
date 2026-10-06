@@ -198,3 +198,7 @@ split() : Convert string to array .
 replace()
 concat() : join String .
 
+
+ARRAY  :
+
+--> 
