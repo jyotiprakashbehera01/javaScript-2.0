@@ -71,27 +71,28 @@
 // console.log(calculatecardPrice(200, 400, 500, 3999));
 
 
-const user = {
-    username : "jyoti",
-    prices : 1999
-}
+// const user = {
+//     username : "jyoti",
+//     prices : 1999
+// }
 
-function handleObject(anyobject){
-     console.log(`username is ${anyobject.username} and price is ${anyobject.price} `);
-}
+// function handleObject(anyobject){
+//      console.log(`username is ${anyobject.username} and price is ${anyobject.price} `);
+// }
 
-// handleObject(user);
+// // handleObject(user);
 
-handleObject({            // direct pass object .
-    username: "karan",
-    price: 400
-})
+// handleObject({            // direct pass object .
+//     username: "karan",
+//     price: 400
+// })
 
 
-const mynewarray = [100, 200, 300, 40000, 50000, 600];
+// const mynewarray = [100, 200, 300, 40000, 50000, 600]; // array
 
-function returnsecondvalue(getarray){
-    return getarray[2]
-}
+// function returnsecondvalue(getarray){
+//     return getarray[2]
+// }
 
-console.log(returnsecondvalue(mynewarray));
+// console.log(returnsecondvalue(mynewarray));
+

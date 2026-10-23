@@ -48,7 +48,7 @@ What is a Data Type in a Variable in JavaScript?
 --> PRIMITIVE :
 --> String : string are text type data type , they can written in " " .
 --> Number : It has numeric value .
---> Bigint : It has use to very last integer .
+--> Bigint : It has use to very largest integer .
 --> Boolean : It give us yes or no / true or false .
 --> Undefind : When value not assigened .
 --> Null : It give intentionally eampty value .
@@ -201,4 +201,16 @@ concat() : join String .
 
 ARRAY  :
 
---> 
+--> Array is a object. 
+--> An array is store to multiple value in  single variable .
+--> It has reuseable .
+--> It has indexing starting for 0 .
+--> Array helps to store and mannage list and data .
+
+. Class  : class is blueprint of object .
+           it define properties and method .
+. Object : An object is an instance of class .
+           It store data as key value pair .
+. List   : A list is collection of multiple item .
+. Copy   : it has tow type :
+               
