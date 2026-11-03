@@ -212,5 +212,9 @@ ARRAY  :
 . Object : An object is an instance of class .
            It store data as key value pair .
 . List   : A list is collection of multiple item .
-. Copy   : it has tow type :
-               
+. Copy   : it has tow type : 1. salow copy : It is an object, It give referense to same referense .
+                             2. Deep copy : It cannot give same referense .
+
+
+
+
