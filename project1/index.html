@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart To-Do List</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./javascript-todo-app/css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div>
+                <h1><i class="bi bi-check2-square"></i> Smart To-Do</h1>
+                <p>Organize your daily tasks efficiently.</p>
+            </div>
+        </header>
+
+        <!-- Statistics -->
+        <section class="stats">
+
+            <div class="stat-card">
+                <h3 id="totalTasks">0</h3>
+                <p>Total Tasks</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="completedTasks">0</h3>
+                <p>Completed</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="pendingTasks">0</h3>
+                <p>Pending</p>
+            </div>
+
+        </section>
+
+        <!-- Add Task -->
+        <section class="task-form">
+
+            <h2>Add New Task</h2>
+
+            <form id="taskForm">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Enter your task..."
+                    autocomplete="off"
+                >
+
+                <button type="submit" id="submitBtn">
+                    <i class="bi bi-plus-lg"></i> Add Task
+                </button>
+
+            </form>
+
+            <p id="errorMessage"></p>
+
+        </section>
+
+        <!-- Task Filters -->
+        <section class="task-section">
+
+            <div class="filter-header">
+
+                <h2>My Tasks</h2>
+
+                <div class="filters">
+
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-filter="pending">
+                        Pending
+                    </button>
+
+                    <button class="filter-btn" data-filter="completed">
+                        Completed
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Task List -->
+            <div id="taskList" class="task-list"></div>
+
+        </section>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script type="module" src="./javascript-todo-app/js/script.js"></script>
+
+</body>
+
+</html>
